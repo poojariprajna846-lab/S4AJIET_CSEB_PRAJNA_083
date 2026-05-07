@@ -1,0 +1,18 @@
+class Main {
+    public static void main(String[] args) {
+        int num=123;
+        int y=num;
+        int rev=0;
+        while(num>0){
+        int last=num%10;
+        rev=rev*10+last;
+        num=num/10;
+         }
+        System.out.println("Reverse:"+rev);
+        if(y==rev)
+        System.out.println("palindrome");
+        else
+        System.out.println("not Palindrome");
+        
+    }
+}
