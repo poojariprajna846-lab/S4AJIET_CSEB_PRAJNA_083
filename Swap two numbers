@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String[] args) {
+        int power=20;
+        int ninja=30;
+        System.out.println("Before swapping");
+        System.out.println("Power:"+power);
+        System.out.println("Ninja:"+ninja);
+        int bottle=ninja;
+        ninja=power;
+        ninja=power;
+        power=bottle;
+        System.out.println("After swapping");
+        System.out.println("Power:"+power);
+        System.out.println("Ninja:"+ninja);
+        
+    }
+}
