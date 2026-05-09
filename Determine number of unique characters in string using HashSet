@@ -1,0 +1,13 @@
+import java.util.HashSet;
+import java.util.Set;
+class Main {
+    public static void main(String[] args){
+        String s="missipi";
+        HashSet<Character> hs=new HashSet<>();
+        for(Character c : s.toCharArray()){
+            hs.add(c);
+        }
+        System.out.println(hs.size());
+        
+    }
+}
